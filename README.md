@@ -1,9 +1,25 @@
 # log4kt
 Logger for Kotlin
 
-## test
+## Install
+```groovy
+dependencies {
+   implementation 'com.github.open-kotlin:log4kt:main-SNAPSHOT'
+}
 ```
-./gradlew test
+
+## Example
+```kotlin
+import log4kt.log
+
+fun main() {
+    log.d("Hello", "World!")
+}
+```
+
+## Test
+```sh
+$ ./gradlew test
 
 > Task :lib:test
 
