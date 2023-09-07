@@ -10,6 +10,7 @@ class LibraryTest {
     @Test fun someLibraryMethodReturnsTrue() {
         log.v("Hi")
         log.d("Hi")
+        Thread.sleep(1000)
         log.i("Hi")
         val logger = Logger("Logger") { level, tag, msg ->
             println("$tag - [$level] - $msg")
