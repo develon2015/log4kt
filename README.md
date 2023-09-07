@@ -3,8 +3,13 @@ Logger for Kotlin
 
 ## Install
 ```groovy
+repositories {
+    // jitpack
+    maven { url "https://jitpack.io" }
+}
+
 dependencies {
-   implementation 'com.github.open-kotlin:log4kt:main-SNAPSHOT'
+   implementation 'com.github.open-kotlin:log4kt:2843ad7'
 }
 ```
 
